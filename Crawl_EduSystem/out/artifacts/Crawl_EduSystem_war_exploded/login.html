@@ -6,14 +6,17 @@
     <title>登录</title>
 </head>
 <body>
-    <h2>输入账号和密码以登录教务管理系统</h2>
-    <form action="/crawler/loginServlet" method="post">
-        学号：<input type="text" name="userName">
-        <br>
-        密码：<input type="password" name="passWord">
-        <br>
-        <input type="submit" value="登录">
-        <input type="button" value="注销">
-    </form>
+<body>
+    <div class="container">
+        <div class="login-wrapper">
+            <div class="header">Login</div>
+            <form class="form-wrapper" action="/crawler/system" method="post">
+                <input type="text" name="userName" placeholder="username" class="input-item">
+                <input type="password" name="passWord" placeholder="password" class="input-item">
+                <input class="btn" type="submit" value="登录">
+            </form>
+        </div>
+    </div>
+</body>
 </body>
 </html>

@@ -20,6 +20,7 @@
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.7" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.6" />
         </element>
+        <element id="module-output" name="Crawl_EduSystem" />
       </element>
       <element id="javaee-facet-resources" facet="Crawl_EduSystem/web/Web" />
     </root>
